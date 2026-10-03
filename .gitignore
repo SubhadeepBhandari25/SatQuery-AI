@@ -1,0 +1,36 @@
+# SatQuery AI - Git Ignore
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+env/
+venv/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Ephemeral File Runtime (Zero Database Compliant)
+runtime/
+backend/runtime/
+models/checkpoints/*.pt
+
+# IDE & Editor history
+.history/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
